@@ -1,0 +1,16 @@
+version: '3.5'
+services:
+
+  postgres:
+    container_name: gophermart_postgres
+    build:
+      context: ../
+      dockerfile: build/postgres.Dockerfile
+      args:
+        USER: $USER
+        USER_PASSWORD: Passw0rd33
+    shm_size: '8gb'
+    environment:
+      POSTGRES_PASSWORD: Passw0rd33
+    ports :
+      - "5432:5432"
