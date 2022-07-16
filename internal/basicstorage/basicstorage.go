@@ -3,7 +3,7 @@ package basicstorage
 import (
 	"sync"
 
-	"github.com/sergeysynergy/hardtest/internal/gophermart"
+	"github.com/sergeysynergy/gophermart/internal/gophermart"
 )
 
 type Storage struct {

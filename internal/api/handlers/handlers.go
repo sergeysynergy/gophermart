@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/sergeysynergy/hardtest/internal/gophermart"
+	"github.com/sergeysynergy/gophermart/internal/gophermart"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/sergeysynergy/hardtest/internal/gophermart"
+	"github.com/sergeysynergy/gophermart/internal/gophermart"
 )
 
 func (s *Storage) initSessions(ctx context.Context) error {
