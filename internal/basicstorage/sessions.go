@@ -2,7 +2,7 @@ package basicstorage
 
 import (
 	"fmt"
-	"github.com/sergeysynergy/hardtest/internal/gophermart"
+	"github.com/sergeysynergy/gophermart/internal/gophermart"
 )
 
 func (s *Storage) AddSession(userSession *gophermart.Session) error {

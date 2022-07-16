@@ -1,7 +1,7 @@
 package gophermart
 
 import (
-	"github.com/sergeysynergy/hardtest/pkg/loon"
+	"github.com/sergeysynergy/gophermart/pkg/loon"
 	"strconv"
 	"time"
 )

@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/sergeysynergy/hardtest/internal/gophermart"
+	"github.com/sergeysynergy/gophermart/internal/gophermart"
 )
 
 func (h *handler) register(w http.ResponseWriter, r *http.Request) {

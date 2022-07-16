@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"fmt"
-	"github.com/sergeysynergy/hardtest/internal/gophermart"
+	"github.com/sergeysynergy/gophermart/internal/gophermart"
 	"net/http"
 )
 

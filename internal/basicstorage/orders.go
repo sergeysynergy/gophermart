@@ -1,8 +1,8 @@
 package basicstorage
 
 import (
-	"github.com/sergeysynergy/hardtest/internal/gophermart"
-	"github.com/sergeysynergy/hardtest/pkg/loon"
+	"github.com/sergeysynergy/gophermart/internal/gophermart"
+	"github.com/sergeysynergy/gophermart/pkg/loon"
 	"log"
 	"strconv"
 )

@@ -9,8 +9,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/sergeysynergy/hardtest/internal/db"
-	"github.com/sergeysynergy/hardtest/internal/gophermart"
+	"github.com/sergeysynergy/gophermart/internal/db"
+	"github.com/sergeysynergy/gophermart/internal/gophermart"
 )
 
 func TestRegister(t *testing.T) {

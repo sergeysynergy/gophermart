@@ -1,4 +1,4 @@
-module github.com/sergeysynergy/hardtest
+module github.com/sergeysynergy/gophermart
 
 go 1.17
 
